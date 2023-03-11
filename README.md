@@ -16,8 +16,7 @@
 
 ## Descrição
 
-> O jogo foi desenvolvido com a ajuda de mais dois integrantes de grupo, onde o objetivo foi criar um jogo baseado no monopoly, em que o jogador tem de percorrer um tabueiro entre 2 a 4 jogadores na mesma página web.
-O seu objetivo é conseguir comprar o máximo de planetas possíveis sem ficar sem recursos.
+> A calculadora feita em HTML, CSS, JS, foi desenvolvida com a ajuda de mais um integrante de grupo, com o objetivo de permitir fazer calculos avançados.
 
 #### Tecnologias e Ferramentas
 
@@ -27,17 +26,12 @@ O seu objetivo é conseguir comprar o máximo de planetas possíveis sem ficar s
 
 ---
 
-## Requisitos
-- Node.js(https://nodejs.org)
----
-
 ## Como utilizar
 
 #### Instalação
 - <p>Copiar a pasta para o diretório desejado no computador.</p>
-```git clone https://github.com/Xremix34/Javascript---Projeto-Jogo-Universe-Explore.git```
-- <p>Ir na pasta Universe Explorer -> src e executar o ficheiro iniciar.bat para iniciar o servidor.</p>
-- <p>Inserir na barra de pesquisa do browser o seguinte endereço: localhost:"número da porta dada pelo servidor" ou Endereço IP do computador:"número da porta dada pelo servidor". </p>
+```git clone git@github.com:Xremix34/Xremix34-JavaScript--Projeto-Calculadora.git```
+- <p>Ir na pasta calculadora -> iwebcalculador e abrir o ficheiro calc.html para iniciar a calculadora.</p>
 ---
 
 ## Autores
