@@ -1,6 +1,6 @@
 # <p align="center">Calculadora</p>
 
-![universe](https://user-images.githubusercontent.com/92939227/196685202-31da4529-db4c-445a-9032-bb855680ffe2.png)
+![calculadora](https://user-images.githubusercontent.com/92939227/224481703-7acb977a-9dd5-46a0-9979-23935102a15e.png)
 
 ---
 
