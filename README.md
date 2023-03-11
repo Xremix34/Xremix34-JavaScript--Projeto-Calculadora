@@ -33,7 +33,7 @@
 #### Instalação
 - <p>Copiar a pasta para o diretório desejado no computador.</p>
 ```git clone git@github.com:Xremix34/Xremix34-JavaScript--Projeto-Calculadora.git```
-- <p>Ir na pasta calculadora -> iwebcalculador e abrir o ficheiro calc.html para iniciar a calculadora.</p>
+- <p>Ir na pasta calculadora -> iwebcalculador, abrir o ficheiro calc.html para iniciar a calculadora.</p>
 ---
 
 ## Autores
