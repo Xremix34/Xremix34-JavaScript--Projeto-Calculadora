@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "calculate-grade": "mocha --reporter=mocha-spec-json-reporter"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "diff": "^3.4.0",
+    "jsonfile": "^3.0.1",
+    "mocha": "^4.1.0",
+    "mocha-spec-json-reporter": "0.0.2",
+    "node-horseman": "^3.3.0",
+    "phantomjs": "^2.1.7",
+    "reporter": "^0.1.0",
+    "testejs": "0.0.0"
+  }
+}

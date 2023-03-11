@@ -1,0 +1,95 @@
+<html>
+<head>
+<script type="text/javascript"  src="jquery.js"></script>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="css/style.css">
+<style>
+button {
+  display:block;
+font-size: 150%;
+width: 60px;
+color: #95a5a6
+}
+
+input {
+font-size: 14px;
+height: 80px;
+width: 315px;
+text-align: right;
+}
+
+</style>
+</head>
+
+<body>
+
+
+
+  <td colspan="4"><input id="display" name="display" disabled></input></td>
+<table>
+<!--<tr>
+    <td><button id="cos" value="cos">cos</button></td>
+  <td><button id="sen" value="sen">sen</button></td>
+  <td><button id="tan" value="tan">tan</button></td>
+    <td><button id="inverse" value="inverse">1/x</button></td>
+     <td><button id="back" value="<-">&larr;</button></td>
+
+</tr>-->
+<tr>
+
+  <!--<td><button id="square" value="x">x<sup>2</sup></button></td>
+   <td><button id="log" value="log">log</button></td>
+ <td><button id="factorial" value="n">n!</button></td>
+  <td><button id="nSquare" value="n">n<sup>2</sup></button></td>
+    <td><button id="percent" value="%">%</button></td>-->
+<tr>
+  <td><button id="button1" value="1">1</button></td>
+  <td><button id="button2" value="2">2</button></td>
+   <td><button id="button3" value="3">3</button></td>
+   <td><button id="divideButton">&#247;</button></td>
+ <!--<td><button id="sqrtSquare" value="v">&radic;<span style="text-decoration: overline"></span></button></td>-->  
+  
+</tr>
+<tr>
+  <td><button id="button4" value="4">4</button></td>
+  <td><button id="button5" value="5">5</button></td>
+  <td><button id="button6" value="6">6</button></td>
+   <td><button id="multiplyButton">*</button></td>
+      <!--<td><button id="mathPi" value="pi">&pi;</button></td>-->
+  
+</tr>
+<tr>
+  <td><button id="button7" value="7">7</button></td>
+  <td><button id="button8" value="8">8</button></td>
+  <td><button id="button9" value="9">9</button></td>
+  <td><button id="subtractButton">-</button></td> 
+  <!--<td><button id="exp" value="EXP">EXP</button></td>-->
+
+</tr>
+<tr>
+  <td><button id="clearButton">C</button></td>
+  <td><button id="button0" value="0">0</button></td>
+  <!--<td><button id="ember" value=".">.</button></td>-->
+  <td><button id="addButton">+</button></td>
+  <td><button id="equalsButton">=</button></td>
+  
+
+</tr>
+</tr>
+ 
+ 
+ 
+  
+ 
+</tr>
+
+
+</table>
+
+
+
+<script src="calc.js"></script>
+<h3><center>By António Matos and Élio Borges</h3>
+<span id='output'><!-- Use this span for writing debug messages or anything else you think will help! --></span>
+</body>
+</html>

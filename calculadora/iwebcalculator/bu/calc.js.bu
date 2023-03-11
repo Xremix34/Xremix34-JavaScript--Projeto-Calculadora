@@ -1,0 +1,173 @@
+            
+            
+
+ 
+$(document).ready(function(){
+var n_anterior="";
+var valorA;
+var valorB;
+var operacao="";
+var operacao_anterior;
+var expressao;
+
+ 
+  //BOTÕES NUMÉRICOS
+
+    $("#button1").click(function(){
+        var valor = $(this).val();
+        $("#display").val(n_anterior+valor);
+        n_anterior = $("#display").val();
+
+    });
+   
+    $("#button2").click(function(){
+    var valor = $(this).val();
+        $("#display").val(n_anterior+valor);
+        n_anterior = $("#display").val();
+    });
+
+    $("#button3").click(function(){
+        var valor = $(this).val();
+        $("#display").val(n_anterior+valor);
+        n_anterior = $("#display").val();
+    });
+    
+     $("#button4").click(function(){
+        var valor = $(this).val();
+        $("#display").val(n_anterior+valor);
+        n_anterior = $("#display").val();
+    });
+
+    $("#button5").click(function(){
+        var valor = $(this).val();
+        $("#display").val(n_anterior+valor);
+        n_anterior = $("#display").val();
+    });
+
+    $("#button6").click(function(){
+        var valor = $(this).val();
+        $("#display").val(n_anterior+valor);
+        n_anterior = $("#display").val();
+    });
+
+    $("#button7").click(function(){
+        var valor = $(this).val();
+        $("#display").val(n_anterior+valor);
+        n_anterior = $("#display").val();
+    });
+
+    $("#button8").click(function(){
+        var valor = $(this).val();
+        $("#display").val(n_anterior+valor);
+        n_anterior = $("#display").val();
+    });
+
+    $("#button9").click(function(){
+        var valor = $(this).val();
+        $("#display").val(n_anterior+valor);
+        n_anterior = $("#display").val();
+    });
+
+    $("#button0").click(function(){
+        var valor = $(this).val();
+        $("#display").val(n_anterior+valor);
+        n_anterior = $("#display").val();       
+    });
+
+  
+    $("#clearButton").click(function(){
+        $("#display").val("");
+        valorA = 0;
+        valorB = 0;
+        n_anterior=""
+        operacao = "";
+        expressao = "";
+        
+    });
+      
+      var operacao = $(this).val();
+
+    $("#addButton").click(function(){
+      valorA = parseFloat($("#display").val()); 
+      operacao="+";         
+      n_anterior = "";
+      $("#output").text(expressao);
+    });
+  
+    $("#subtractButton").click(function(){
+       
+       valorA = parseFloat($("#display").val());
+
+       
+       operacao = "-";
+        
+          n_anterior = "";
+
+    });
+  
+    $("#multiplyButton").click(function(){
+        valorA = parseFloat($("#display").val());
+        operacao = "*";
+         
+     n_anterior = "";
+    });
+  
+    $("#divideButton").click(function(){
+       valorA = parseFloat($("#display").val());
+        operacao = "/";
+         
+        n_anterior = "";
+    });      
+          
+  
+    $("#equalsButton").click(function(){ 
+
+               
+                
+                if(operacao!=""){ // se a variavel de operação for diferente de ""
+
+                    
+                         valorB = parseFloat($("#display").val());
+                        switch(operacao){
+                            case "+":
+                                //se a variavel de operaçao2 for diferente de teal
+                                
+                                var resultado=(valorA)+(valorB);
+                                    
+                                break;
+
+                            case "-":
+                                
+                                var resultado=(valorA)-(valorB);
+                                
+                                 break;
+
+                            case "*":
+                                
+                                var resultado=(valorA)*(valorB);
+                                  operacao="";        
+                                break;
+
+                            case "/":                                
+                                var resultado=(valorA)/(valorB);
+                                      
+                                break;
+
+                        }
+                    
+                   
+
+                     
+                }
+                 $("#display").val(resultado);  
+                
+        });
+    });
+
+//Operaçoessuplentes
+
+
+
+   
+  
+   
